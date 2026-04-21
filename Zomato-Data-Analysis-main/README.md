@@ -41,11 +41,11 @@ For additional visualizations, such as price groups, restaurants, food items, or
   <img src="https://github.com/ShaikhBorhanUddin/Zomato-Data-Analysis/blob/main/Images/order_count_day.png?raw=true" alt="Order Count by Day" width="27%" />
 </p>
 
-For more details and python codes for visualizations, click the [link](https://colab.research.google.com/drive/1HsaqNjhSE_akLOapiRKfzaz7DPkM3cNT?usp=sharing).
+
 
 ### 🧹 Data Cleaning Process
 
-The Zomato dataset contained several inconsistencies that needed to be addressed before running meaningful SQL queries. This data cleaning process involved standardizing currency values in the orders table by converting all USD entries to INR using a fixed exchange rate. In the restaurant table, missing or placeholder ratings were normalized and converted to a numeric format. Menu prices stored as text were cleaned and cast to float values, and orphan records referencing non-existent restaurants were removed to maintain relational integrity. The cost column was also cleaned of non-numeric characters and converted to a consistent numeric format. Additionally, missing restaurant names were reconstructed from URL links to ensure completeness. These steps were essential to prepare the dataset for accurate and efficient analysis. For details of data cleaning process and relevant SQL codes, please refer to [data_cleaning.sql](https://github.com/ShaikhBorhanUddin/Zomato-Data-Analysis/blob/main/SQL/data_cleaning.sql).
+The Zomato dataset contained several inconsistencies that needed to be addressed before running meaningful SQL queries. This data cleaning process involved standardizing currency values in the orders table by converting all USD entries to INR using a fixed exchange rate. In the restaurant table, missing or placeholder ratings were normalized and converted to a numeric format. Menu prices stored as text were cleaned and cast to float values, and orphan records referencing non-existent restaurants were removed to maintain relational integrity. The cost column was also cleaned of non-numeric characters and converted to a consistent numeric format. Additionally, missing restaurant names were reconstructed from URL links to ensure completeness. These steps were essential to prepare the dataset for accurate and efficient analysis. For details of data cleaning process and relevant SQL codes, please refer to [data_cleaning.sql](https://github.com/Sid-art6/Zomato-Data-Analysis/blob/main/Zomato-Data-Analysis-main/SQL/data_cleaning.sql).
 
 ### 🧱 ER Diagram
 
@@ -83,7 +83,7 @@ The following steps outline the end-to-end workflow for this project:
 
 ## ❓ Analytic Questions
 
-This project aims to address several critical questions within the context of restaurant analytics. For an in-depth exploration of each question, complete with relevant SQL queries and visualizations, please refer to [Solutions and Visualizations](https://github.com/ShaikhBorhanUddin/Zomato-Data-Analysis/blob/main/Solutions/solutions_and_visualizations.md).
+This project aims to address several critical questions within the context of restaurant analytics. For an in-depth exploration of each question, complete with relevant SQL queries and visualizations, please refer to [Solutions and Visualizations](https://github.com/Sid-art6/Zomato-Data-Analysis/blob/main/Zomato-Data-Analysis-main/Solutions/solutions_and_visualizations.md).
 
 1. What are the top 10 restaurants by total sales amount?
 2. What is the average rating and total rating count for restaurants in the top 20 cities?
