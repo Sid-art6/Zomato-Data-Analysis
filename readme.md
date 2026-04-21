@@ -45,20 +45,6 @@ Food delivery platforms need to:
 
 ---
 
-## 📈 Visualizations
-
-<p align="center">
-  <img src="Images/Viz_1.png" width="45%" />
-  <img src="Images/Viz_3.png" width="45%" />
-</p>
-
-<p align="center">
-  <img src="Images/Viz_4.png" width="45%" />
-  <img src="Images/Viz_5.png" width="45%" />
-</p>
-
----
-
 ## 🔍 Sample SQL Query
 
 ```sql
